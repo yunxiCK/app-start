@@ -1,5 +1,5 @@
 ## 介绍
-react@17 + umijs@3 + antd@4 + recoil + webpack@5 
+react@17 + umijs@3 + antd@4 + recoil@0.3 + webpack@5 
 
 ## 开发前先阅读官网文档
 https://umijs.org/zh-CN/docs/getting-started
@@ -130,4 +130,3 @@ https://umijs.org/zh-CN/docs/mock
 
 ## 待完成
 1. 与后端同学约定字段参数;
-2. 测试前端mock请求和真实接口调用的转换; **
