@@ -1,0 +1,14 @@
+.dsField {
+  padding: 6px 20px;
+}
+
+.active {
+  background: cornflowerblue;
+  color: #fff;
+}
+
+.dataSetFields {
+  overflow: hidden;
+  overflow-y: auto;
+  height: calc(100vh - 300px);
+}

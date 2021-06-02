@@ -1,0 +1,55 @@
+{
+  "_from": "recoilize@^2.0.1",
+  "_id": "recoilize@2.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-C/JML0SxXDbJ74iNF46GQGrc9g3CRd2+rmNBcpwkCc1L9OSSYki4ipbUPCJL6I8Bbw5slKXY809RWrF0nwhRoQ==",
+  "_location": "/recoilize",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "recoilize@^2.0.1",
+    "name": "recoilize",
+    "escapedName": "recoilize",
+    "rawSpec": "^2.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/recoilize/-/recoilize-2.0.1.tgz",
+  "_shasum": "8c81ba83a7da8c8c881b861b87d1a1fd00a25a8c",
+  "_spec": "recoilize@^2.0.1",
+  "_where": "/Users/liuchaofeng/Documents/projects/my-app",
+  "author": {
+    "name": "Bren Yamaguchi, Saejin Kang, Jonathan Escamilla, Sean Smith, Justin Choo, Anthony Lin, Spenser Schwartz, Steven Nguyen, Henry Taing, Seungho Baek, Taven Shumaker, Aaron Yang, Jesus Vargas, Davide Molino, Janis Hernandez, Jaime Baik, Edward Shei, Anthony Magallanes"
+  },
+  "bugs": {
+    "url": "https://github.com/open-source-labs/Recoilize/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Recoil Dev Tool",
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  },
+  "homepage": "https://github.com/open-source-labs/Recoilize#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "recoilize",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "recoil": "^0.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-source-labs/Recoilize.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.1"
+}
