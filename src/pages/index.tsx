@@ -1,7 +1,6 @@
 import { dynamic } from 'umi';
 import React, { useEffect, useState } from 'react';
 import { RecoilRoot } from 'recoil';
-import axios from '@/utils/axios';
 import ReportBar from '../components/ReportBar';
 import DataSetArea from '../components/DatasetArea';
 import DsFieldsArea from '../components/DataSetFields';
@@ -14,11 +13,6 @@ export default function Home() {
   const [root, setRoot] = useState<HTMLDivElement | null>(null);
   const RecoilizeDebugger = dynamic(() => import('../recoilize'), { ssr: false });
 
-  const fetchUserList = async () => {
-    const res = await axios.get('/users');
-    return res;
-  };
-
   useEffect(() => {
     const rootDom = document.getElementById('__next') as HTMLDivElement;
 
@@ -26,10 +20,6 @@ export default function Home() {
       setRoot(rootDom);
     }
   }, [root]);
-
-  useEffect(() => {
-    fetchUserList();
-  }, []);
 
   return (
     <RecoilRoot>
